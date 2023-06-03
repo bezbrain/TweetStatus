@@ -6,7 +6,6 @@ import config from "../config";
 // Fetching Openai Data for Tweets
 
 const API_KEY = config.apiKey;
-console.log(API_KEY);
 
 const App = () => {
   const [inputText, setInputText] = useState("");
