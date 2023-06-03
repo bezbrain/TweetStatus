@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
-import config from "../config";
+import config from "./config";
 
 /* ======== */
 // Fetching Openai Data for Tweets
