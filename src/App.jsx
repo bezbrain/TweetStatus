@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import config from "../config";
 
 /* ======== */
 // Fetching Openai Data for Tweets
 
-const API_KEY = "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";
+const API_KEY = config.apiKey;
+console.log(API_KEY);
 
 const App = () => {
   const [inputText, setInputText] = useState("");
