@@ -1,10 +1,10 @@
 import { useState } from "react";
 import axios from "axios";
-import config from "./config";
 
 /* ======== */
 // Fetching Openai Data for Tweets
-const API_KEY = config.apiKey;
+
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 const App = () => {
   const [inputText, setInputText] = useState("");

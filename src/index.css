@@ -17,9 +17,16 @@ body {
   background-color: #f1e9e9;
 }
 
+#root {
+  /* border: 2px solid red; */
+  width: 500px;
+}
+
 textarea {
   padding: 10px;
   margin-bottom: 10px;
+  width: 100%;
+  font-size: 20px;
 }
 
 button {
