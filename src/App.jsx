@@ -4,7 +4,6 @@ import config from "../config";
 
 /* ======== */
 // Fetching Openai Data for Tweets
-
 const API_KEY = config.apiKey;
 
 const App = () => {
