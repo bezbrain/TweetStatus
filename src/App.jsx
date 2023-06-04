@@ -34,7 +34,6 @@ const App = () => {
         }
       );
 
-      // console.log(data);
       const choiceText = data.choices[0].text.trim();
       let updateChoiceText = choiceText.replace("to see", "");
       setGeneratedText(updateChoiceText);
